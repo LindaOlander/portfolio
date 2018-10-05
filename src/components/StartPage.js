@@ -1,6 +1,7 @@
 import React from "react"
 import ReadMoreButton from "./Buttons/ReadMoreButton"
 import AboutBox from "./AboutBox/AboutBox"
+import Footer from "./Footer/Footer"
 
 class StartPage extends React.Component {
 
@@ -8,6 +9,7 @@ class StartPage extends React.Component {
     return (
       <div className="startPageContainer">
         <AboutBox />
+        <Footer />
       </div>
     )
   }
