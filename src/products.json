@@ -2,56 +2,56 @@
 	"products": [{
 			"id": 1,
 			"name": "Form built in HTML and CSS",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text."
+			"image": "./images/case.png",
+			"code": "Html, CSS, Javascript",
+			"toolbox": "Atom, GiHub",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": 2,
 			"name": "Pizzabot",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text"
+			"image": "./images/case.png",
+			"code": "HTML5, CSS3, Javascript",
+			"toolbox": "Atom, GitHub",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": 3,
 			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text"
+			"image": "./images/case.png",
+			"code": "HTML5, CSS3, Javascript, GitHub",
+			"toolbox": "Atom, Flexbox, GitHub, Slack, Trello",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": 4,
 			"name": "New site built with Google News API. Client: Bonnier News.",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text"
+			"image": "./images/case.png",
+			"code": "HTML5, CSS3, Javascript, GitHub",
+			"toolbox": "Atom, Postman, Google News API, Slack, Trello",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": 5,
 			"name": "Weather Chrome Extension build on Open Weather API",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text"
+			"image": "./images/case.png",
+			"code": "HTML5, CSS3, Javascript",
+			"toolbox": "Atom, Postman, Open Weather API",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": 6,
 			"name": "Radio player built in React using Sveriges Radio API:s.",
-			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
-			"code": "X",
-			"toolbox": "X",
-			"more": "X",
-			"description": "Text text text"
+			"image": "./images/case.png",
+			"code": "HTML5, CSS3, Javascript ES6, React, SASS, GitHub",
+			"toolbox": "Atom, Postman",
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		}
 
 	]

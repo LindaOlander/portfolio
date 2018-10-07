@@ -5,7 +5,7 @@ class CaseBox extends React.Component {
   render() {
     return (
       <div className="caseBox">
-        <h4>{this.props.title}</h4>
+        <h5>{this.props.title}</h5>
         <img className="caseImageBox" src={this.props.image} alt="Case" />
       </div>
     )

@@ -15,7 +15,8 @@ h1 {
   font-family: BigJohn;
   font-size: 32px;
   text-transform: uppercase;
-  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -33,10 +34,18 @@ h3 {
 }
 
 h4 {
+  font-family: BigJohn;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 700;
   margin: 5px 0;
+  color: pink;
 }
 
 p {
@@ -67,9 +76,11 @@ button:hover {
   justify-content: center;
 }
 
-.startPageContainer {
+.PageContainer {
   margin: 50px 200px;
 }
+
+/*----------STARTPAGE----------*/
 
 .aboutBox {
   display: flex;
@@ -93,32 +104,6 @@ button:hover {
 .aboutBoxImage img {
   width: 100%;
   height: auto;
-}
-
-.CaseBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.caseBox {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  width: calc(50% - 20px);
-}
-
-.caseImageBox {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  background-color: #f3e7db;
-}
-
-.caseImageBox img {
-  width: 100%;
 }
 
 .skillBox {
@@ -158,6 +143,83 @@ button:hover {
   width: calc(33% - 30px);
   margin-right: 0 30px;
 }
+
+/*----------CASEPAGE----------*/
+
+.casePage {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.casePageImage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.casePageImage img {
+  width: 100%;
+}
+
+.casePageTech {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.casePageText {
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.techContent {
+  width: 33%;
+}
+
+.CaseBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.caseBox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.caseImageBox {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  background-color: #f3e7db;
+}
+
+.caseImageBox img {
+  width: 100%;
+}
+
+.backBoxContainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.backBoxContainer h4 {
+  color: #F5A623;
+}
+
+.backBoxImage {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+/*----------FOOTER----------*/
 
 .footer {
   background-color: #F5A623;

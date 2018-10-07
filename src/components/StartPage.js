@@ -14,7 +14,7 @@ class StartPage extends React.Component {
 
   render() {
     return (
-      <div className="startPageContainer">
+      <div className="PageContainer">
         <AboutBox />
         <ProjectsBox />
 
@@ -22,12 +22,7 @@ class StartPage extends React.Component {
           {productsJson.products.map(product =>
             <CaseBox
               title={product.name}
-              fileName={product.image}
-              substance={product.substance}
-              size={product.size}
-              numberInPack={product.numberInPack}
-              price={product.price}
-              deliveryTime={product.deliveryTime} />)}
+              image={product.image} />)}
         </div>
 
         <SkillBox />
