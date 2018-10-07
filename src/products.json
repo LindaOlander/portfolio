@@ -1,0 +1,58 @@
+{
+	"products": [{
+			"id": 1,
+			"name": "Form built in HTML and CSS",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text."
+		},
+		{
+			"id": 2,
+			"name": "Pizzabot",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text"
+		},
+		{
+			"id": 3,
+			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text"
+		},
+		{
+			"id": 4,
+			"name": "New site built with Google News API. Client: Bonnier News.",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text"
+		},
+		{
+			"id": 5,
+			"name": "Weather Chrome Extension build on Open Weather API",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text"
+		},
+		{
+			"id": 6,
+			"name": "Radio player built in React using Sveriges Radio API:s.",
+			"image": "https://www.apoteket.se/produktbilder/Validoo/097610s.jpg",
+			"code": "X",
+			"toolbox": "X",
+			"more": "X",
+			"description": "Text text text"
+		}
+
+	]
+}

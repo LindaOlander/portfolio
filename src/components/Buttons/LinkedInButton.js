@@ -5,7 +5,9 @@ class LinkedInButton extends React.Component {
   render() {
     return (
 
-      <button>See my LinkedIn</button>
+      <div className="buttonBox">
+        <button>See my LinkedIn</button>
+      </div>
 
     )
   }
