@@ -9,8 +9,7 @@ import LinkedInButton from "./Buttons/LinkedInButton"
 import ProjectsBox from "./ProjectsBox/ProjectsBox"
 import CaseBox from "./CaseBox/CaseBox"
 import Case from "./Case"
-
-const productsJson = require("./../products.json")
+import productsJson from "../products.json"
 
 class StartPage extends React.Component {
 

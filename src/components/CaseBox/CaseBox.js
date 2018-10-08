@@ -5,12 +5,14 @@ class CaseBox extends React.Component {
 
   render() {
     return (
-      <Link to={`/case/${this.props.id}`}>
+
         <div className="caseBox">
-          <h5>{this.props.title}</h5>
-          <img className="caseImageBox" src={this.props.image} alt="Case" />
+          <Link to={`/case/${this.props.id}`}>
+            <h5>{this.props.title}</h5>
+            <img className="caseImageBox" src={this.props.image} alt="Case" />
+          </Link>
         </div>
-      </Link>
+
     )
   }
 
