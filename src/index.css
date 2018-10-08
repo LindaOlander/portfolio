@@ -24,6 +24,7 @@ h2 {
   font-size: 28px;
   font-weight: 100;
   font-style: italic;
+  margin-top: 0;
 }
 
 h3 {
@@ -45,7 +46,7 @@ h5 {
   font-size: 14px;
   font-weight: 700;
   margin: 5px 0;
-  color: pink;
+  color: #000;
 }
 
 p {
@@ -70,6 +71,10 @@ button:hover {
   color: #FDE7C4;
 }
 
+a {
+  text-decoration: none;
+}
+
 .buttonBox {
   display: flex;
   flex-direction: row;
@@ -79,6 +84,13 @@ button:hover {
 .PageContainer {
   margin: 50px 200px;
 }
+
+/* .navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+} */
 
 /*----------STARTPAGE----------*/
 
@@ -225,8 +237,6 @@ button:hover {
   background-color: #F5A623;
   width: 100%;
   height: 80px;
-  position: absolute;
-  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,6 +251,7 @@ button:hover {
   margin: 5px 0;
   padding: 0;
   letter-spacing: 0.5px;
+  font-style: normal;
 }
 
 .footer p {

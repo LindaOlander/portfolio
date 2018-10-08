@@ -1,4 +1,5 @@
 import React from "react"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import CasePage from "./CasePage/CasePage"
 import BackBox from "./BackBox/BackBox"
 
@@ -9,7 +10,8 @@ class Case extends React.Component {
   render() {
     return (
       <div className="PageContainer">
-        <BackBox />
+        <Link to="/start"><BackBox /></Link>
+
         {productsJson.products.map(product =>
           <CasePage
             title={product.name}
@@ -21,7 +23,6 @@ class Case extends React.Component {
       </div>
     )
   }
-
 }
 
 export default Case
