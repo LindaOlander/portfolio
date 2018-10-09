@@ -1,6 +1,6 @@
 {
 	"products": [{
-			"id": 1,
+			"id": "1",
 			"name": "Form built in HTML and CSS",
 			"image": "./images/case.png",
 			"code": "Html, CSS, Javascript",
