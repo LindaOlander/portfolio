@@ -1,6 +1,6 @@
 import React from "react"
 import { withRouter } from "react-router-dom"
-import productsJson from "../../products.json"
+import casesJson from "../../cases.json"
 
 class CasePage extends React.Component {
 
@@ -8,7 +8,7 @@ class CasePage extends React.Component {
 
     const id = this.props.match.params.id
     let project = null
-    productsJson.products.forEach(item => {
+    casesJson.cases.forEach(item => {
       if(item.id === id){
         project = item
       }

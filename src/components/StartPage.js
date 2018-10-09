@@ -9,7 +9,7 @@ import LinkedInButton from "./Buttons/LinkedInButton"
 import ProjectsBox from "./ProjectsBox/ProjectsBox"
 import CaseBox from "./CaseBox/CaseBox"
 import Case from "./Case"
-import productsJson from "../products.json"
+import casesJson from "../cases.json"
 
 class StartPage extends React.Component {
 
@@ -21,7 +21,7 @@ class StartPage extends React.Component {
           <ProjectsBox />
 
           <div className="CaseBox">
-            {productsJson.products.map(product =>
+            {casesJson.cases.map(product =>
               <CaseBox
                 title={product.name}
                 image={product.image}

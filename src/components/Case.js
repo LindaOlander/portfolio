@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import CasePage from "./CasePage/CasePage"
 import BackBox from "./BackBox/BackBox"
-import productsJson from "../products.json"
+import casesJson from "../cases.json"
 
 class Case extends React.Component {
 

@@ -1,5 +1,5 @@
 {
-	"products": [{
+	"cases": [{
 			"id": "1",
 			"name": "Form built in HTML and CSS",
 			"image": "../images/case.png",

@@ -24,11 +24,6 @@ class App extends React.Component {
     return (
       <Router>
         <div className="navigation">
-          <ul>
-            <li><Link to="/start">Start</Link></li>
-            <li><Link to="/case">Case</Link></li>
-            <li><Link to="/case">Single case</Link></li>
-          </ul>
           <Route path="/case" exact="true" component={Case} />
           <Route path="/start" exact="true" component={StartPage} />
           <Route path="/case/:id" component={Case} />
