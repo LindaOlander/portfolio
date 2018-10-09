@@ -5,7 +5,7 @@ import productsJson from "../../products.json"
 class CasePage extends React.Component {
 
   render() {
-  
+
     const id = this.props.match.params.id
     let project = null
     productsJson.products.forEach(item => {
