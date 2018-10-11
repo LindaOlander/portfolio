@@ -1,5 +1,5 @@
 import React from "react"
-import { HashRouter as Router, Route, Link } from "react-router-dom"
+import { Router as Router, Route, Link } from "react-router-dom"
 import StartPage from "./StartPage"
 import Case from "./Case"
 
@@ -22,13 +22,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <HashRouter>
+      <Router>
         <div className="navigation">
           <Route path="/case" exact="true" component={Case} />
           <Route path="/start" exact="true" component={StartPage} />
           <Route path="/case/:id" component={Case} />
         </div>
-      </HashRouter>
+      </Router>
     )
   }
 

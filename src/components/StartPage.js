@@ -1,5 +1,5 @@
 import React from "react"
-import { HashRouter as Router, Route, Link } from "react-router-dom"
+import { Router as Router, Route, Link } from "react-router-dom"
 import ReadMoreButton from "./Buttons/ReadMoreButton"
 import AboutBox from "./AboutBox/AboutBox"
 import Footer from "./Footer/Footer"

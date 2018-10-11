@@ -1,5 +1,5 @@
 import React from "react"
-import { HashRouter as Router, Route, Link } from "react-router-dom"
+import { Router as Router, Route, Link } from "react-router-dom"
 import CasePage from "./CasePage/CasePage"
 import BackBox from "./BackBox/BackBox"
 import casesJson from "../cases.json"
