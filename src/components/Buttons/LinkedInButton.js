@@ -6,7 +6,9 @@ class LinkedInButton extends React.Component {
     return (
 
       <div className="buttonBox">
-        <button>See my LinkedIn</button>
+        <a href="https://www.linkedin.com/in/linda-olander-9b618553/" target="_blank">
+          <button>See my LinkedIn</button>
+        </a>
       </div>
 
     )
