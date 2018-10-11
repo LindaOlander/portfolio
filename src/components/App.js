@@ -1,5 +1,5 @@
 import React from "react"
-import { Router as Router, Route, Link } from "react-router-dom"
+import { HashRouter as Router, Route, Link } from "react-router-dom"
 import StartPage from "./StartPage"
 import Case from "./Case"
 
