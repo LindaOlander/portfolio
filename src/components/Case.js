@@ -8,6 +8,10 @@ import casesJson from "../cases.json"
 //
 class Case extends React.Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="PageContainer">
