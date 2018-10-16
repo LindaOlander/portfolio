@@ -2,16 +2,16 @@
 	"cases": [{
 			"id": "1",
 			"name": "Radio player built in React using Sveriges Radio API",
-			"image": "./images/case.png",
+			"image": "./images/radioplayer.jpg",
 			"code": ["React", "HTML5", "CSS3", "Javascript ES6"],
 			"toolbox": ["Atom", "Postman", "Sveriges Radio API", "GitHub"],
 			"more": [""],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+			"description": "In this Radio Player App I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls. Using React fetch()-method I got a JSON from the Sveriges Radio API and render a list of channels with playable streams, showing the station name, image, and colour keys."
 		},
 		{
 			"id": "2",
 			"name": "Flight search form using SASS",
-			"image": "./images/case.png",
+			"image": "./images/flightform.jpg",
 			"code": ["React", "HTML5", "SASS"],
 			"toolbox": ["Atom", "GitHub"],
 			"more": [""],
@@ -59,6 +59,15 @@
 			"image": "./images/case.png",
 			"code": ["React", "HTML5", "CSS3", "Javascript", "API:s"],
 			"toolbox": ["Atom", "Postman", "API", "Slack", "Trello", "GitHub"],
+			"more": [""],
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+		},
+		{
+			"id": "8",
+			"name": "Clock app using Local State in React",
+			"image": "./images/case.png",
+			"code": ["React", "HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Slack", "Trello", "GitHub"],
 			"more": [""],
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		}
