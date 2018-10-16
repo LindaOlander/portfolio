@@ -75,6 +75,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+
+}
+
 .buttonBox {
   display: flex;
   flex-direction: row;

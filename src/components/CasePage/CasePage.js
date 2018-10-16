@@ -5,11 +5,10 @@ import casesJson from "../../cases.json"
 class CasePage extends React.Component {
 
   render() {
-
     const id = this.props.match.params.id
     let project = null
     casesJson.cases.forEach(item => {
-      if(item.id === id){
+      if (item.id === id) {
         project = item
       }
     })
@@ -25,15 +24,24 @@ class CasePage extends React.Component {
         <div className="casePageTech">
           <div className="techContent">
             <h4>Code</h4>
-            <p>{project.code}</p>
+            <ul>
+              {project.code.map(item =>
+                <li>{item}</li>)}
+            </ul>
           </div>
           <div className="techContent">
             <h4>Toolbox</h4>
-            <p>{project.toolbox}</p>
+            <ul>
+              {project.toolbox.map(item =>
+                <li>{item}</li>)}
+            </ul>
           </div>
           <div className="techContent">
             <h4>More</h4>
-            <p>{project.more}</p>
+            <ul>
+              {project.more.map(item =>
+                <li>{item}</li>)}
+            </ul>
           </div>
         </div>
         <div className="buttonBox">

@@ -1,6 +1,6 @@
 import React from "react"
 
-class BackBox extends React.Component {
+class BackButton extends React.Component {
 
   render() {
     return (
@@ -15,4 +15,4 @@ class BackBox extends React.Component {
 
 }
 
-export default BackBox
+export default BackButton

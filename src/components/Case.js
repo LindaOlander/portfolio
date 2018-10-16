@@ -1,17 +1,18 @@
 import React from "react"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
 import CasePage from "./CasePage/CasePage"
-import BackBox from "../BackBox/BackBox"
+import BackButton from "./Buttons/BackButton"
 import casesJson from "../cases.json"
 
+// <Link to="/start"><BackBox /></Link>
+//
 class Case extends React.Component {
 
   render() {
     return (
       <div className="PageContainer">
-        <Link to="/start"><BackBox /></Link>
+        <Link to="/start"><BackButton /></Link>
         <CasePage />
-
       </div>
     )
   }
