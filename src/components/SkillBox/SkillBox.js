@@ -14,10 +14,9 @@ class SkillBox extends React.Component {
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript ES6</li>
+              <li>React</li>
               <li>SASS</li>
               <li>GitHub</li>
-              <li>Node.js</li>
-              <li>MongoDB</li>
             </ul>
           </div>
 

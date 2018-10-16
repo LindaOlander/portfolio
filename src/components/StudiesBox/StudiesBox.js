@@ -10,23 +10,27 @@ class StudiesBox extends React.Component {
 
           <div className="studies">
             <h3>Front-End Developer</h3>
-            <h4>Technigo</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <h5>Technigo</h5>
+            <p>Front End Development studies in an intensive boot camp format. Studies include JavaScript (ES6), React, Html5, CSS3, Node js.</p>
           </div>
 
           <div className="studies">
             <h3>Art Direction</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <h5>Berghs School of Communications</h5>
+            <p>Three months evening course in Art Direction, practical and theoretical study of concept development and digital design.
+            Learning the creative process, planning, communication analysis and new media.</p>
           </div>
 
           <div className="studies">
             <h3>Project Management</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <h5>Stockholm University</h5>
+            <p>One semester course in project management, learning project planning, time and risk management, practical management of projects in a constantly changing society.</p>
           </div>
 
           <div className="studies">
             <h3>Bachelor in Media Communications</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <h5>Uppsala University</h5>
+            <p>Bachelors degree with Media Communications as major, including studies in psychology, journalistics, digital communication. </p>
           </div>
 
         </div>

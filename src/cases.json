@@ -1,58 +1,57 @@
 {
 	"cases": [{
 			"id": "1",
-			"name": "Form built in HTML and CSS",
+			"name": "Radio player built in React using Sveriges Radio API.",
 			"image": "./images/case.png",
-			"code": "Html, CSS, Javascript",
-			"toolbox": "Atom, GiHub",
+			"code": ["React", "HTML5", "CSS3", "Javascript ES6"],
+			"toolbox": ["Atom", "Postman", "Sveriges Radio API", "GitHub"],
 			"more": "",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": "2",
-			"name": "Pizzabot",
-			"image": "../images/case.png",
-			"code": "HTML5, CSS3, Javascript",
-			"toolbox": "Atom, GitHub",
+			"name": "Weather Chrome Extension build on Open Weather API",
+			"image": "./images/case.png",
+			"code": ["HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Postman", "Open Weather API", "GitHub"],
 			"more": "",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": "3",
-			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
-			"image": "../images/case.png",
-			"code": "HTML5, CSS3, Javascript, GitHub",
-			"toolbox": "Atom, Flexbox, GitHub, Slack, Trello",
-			"more": "",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-		},
-		{
-			"id": "4",
-			"name": "New site built with Google News API. Client: Bonnier News.",
-			"image": "../images/case.png",
-			"code": "HTML5, CSS3, Javascript, GitHub",
-			"toolbox": "Atom, Postman, Google News API, Slack, Trello",
+			"name": "Flight search form using SASS",
+			"image": "./images/case.png",
+			"code": ["React", "HTML5", "SASS"],
+			"toolbox": ["Atom", "GitHub"],
 			"more": "",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": "5",
-			"name": "Weather Chrome Extension build on Open Weather API",
-			"image": "../images/case.png",
-			"code": "HTML5, CSS3, Javascript",
-			"toolbox": "Atom, Postman, Open Weather API",
+			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
+			"image": "./images/case.png",
+			"code": ["HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Flexbox", "GitHub", "Slack", "Trello"],
+			"more": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+		},
+		{
+			"id": "4",
+			"name": "News site built in React with Google News API. Client: Bonnier News.",
+			"image": "./images/case.png",
+			"code": ["React", "HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Postman", "Google News API", "Slack", "Trello", "GitHub"],
 			"more": "",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": "6",
-			"name": "Radio player built in React using Sveriges Radio API:s.",
-			"image": "../images/case.png",
-			"code": "HTML5, CSS3, Javascript ES6, React, SASS, GitHub",
-			"toolbox": "Atom, Postman",
+			"name": "Career site built i React using multible API",
+			"image": "./images/case.png",
+			"code": ["React", "HTML5", "CSS3", "Javascript", "API:s"],
+			"toolbox": ["Atom", "Postman", "API", "Slack", "Trello", "GitHub"],
 			"more": "",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		}
-
 	]
 }
