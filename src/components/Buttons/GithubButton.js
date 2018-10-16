@@ -5,7 +5,7 @@ class GithubButton extends React.Component {
   render() {
     return (
 
-      <button href="https://github.com/LindaOlander">See my Github</button>
+      <a href="https://github.com/LindaOlander?tab=repositories" target="_blank"><button>See my Github</button></a>
 
     )
   }

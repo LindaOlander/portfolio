@@ -1,7 +1,7 @@
 {
 	"cases": [{
 			"id": "1",
-			"name": "Radio player built in React using Sveriges Radio API.",
+			"name": "Radio player built in React using Sveriges Radio API",
 			"image": "./images/case.png",
 			"code": ["React", "HTML5", "CSS3", "Javascript ES6"],
 			"toolbox": ["Atom", "Postman", "Sveriges Radio API", "GitHub"],
@@ -10,15 +10,6 @@
 		},
 		{
 			"id": "2",
-			"name": "Weather Chrome Extension build on Open Weather API",
-			"image": "./images/case.png",
-			"code": ["HTML5", "CSS3", "Javascript"],
-			"toolbox": ["Atom", "Postman", "Open Weather API", "GitHub"],
-			"more": [""],
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-		},
-		{
-			"id": "3",
 			"name": "Flight search form using SASS",
 			"image": "./images/case.png",
 			"code": ["React", "HTML5", "SASS"],
@@ -27,16 +18,25 @@
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
-			"id": "5",
-			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
+			"id": "3",
+			"name": "VAT-calculator using Form Control",
 			"image": "./images/case.png",
-			"code": ["HTML5", "CSS3", "Javascript"],
-			"toolbox": ["Atom", "Flexbox", "GitHub", "Slack", "Trello"],
+			"code": ["React", "HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "React Form", "GitHub"],
 			"more": [""],
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 		},
 		{
 			"id": "4",
+			"name": "Weather Chrome Extension build on Open Weather API",
+			"image": "./images/case.png",
+			"code": ["HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Postman", "Open Weather API", "GitHub"],
+			"more": [""],
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+		},
+		{
+			"id": "5",
 			"name": "News site built in React with Google News API. Client: Bonnier News.",
 			"image": "./images/case.png",
 			"code": ["React", "HTML5", "CSS3", "Javascript"],
@@ -46,6 +46,15 @@
 		},
 		{
 			"id": "6",
+			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
+			"image": "./images/case.png",
+			"code": ["HTML5", "CSS3", "Javascript"],
+			"toolbox": ["Atom", "Flexbox", "GitHub", "Slack", "Trello"],
+			"more": [""],
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+		},
+		{
+			"id": "7",
 			"name": "Career site built i React using multible API",
 			"image": "./images/case.png",
 			"code": ["React", "HTML5", "CSS3", "Javascript", "API:s"],
