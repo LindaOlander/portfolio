@@ -17,8 +17,8 @@
 			"code": ["React", "HTML5", "SASS"],
 			"toolbox": ["Atom", "GitHub"],
 			"more": [""],
-			"live": "",
-			"github": "https://github.com/LindaOlander?tab=repositories",
+			"live": "https://lindaolander.github.io/flight-form/",
+			"github": "https://github.com/LindaOlander/flight-form",
 			"description": "This Flight Form is inspired of the Norweigian flight booking form built in React using SASS for styling. I've used @mixin, which lets me group CSS declarations to reuse throughout the site, and nesting to make the code clean."
 		},
 		{
