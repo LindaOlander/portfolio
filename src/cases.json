@@ -6,6 +6,8 @@
 			"code": ["React", "HTML5", "CSS3", "Javascript ES6"],
 			"toolbox": ["Atom", "Postman", "Sveriges Radio API", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "In this Radio Player App I used the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls. Using React fetch()-method I got a JSON from the Sveriges Radio API and render a list of channels with playable streams, showing the station name, image, and colour keys."
 		},
 		{
@@ -15,6 +17,8 @@
 			"code": ["React", "HTML5", "SASS"],
 			"toolbox": ["Atom", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "This Flight Form is inspired of the Norweigian flight booking form built in React using SASS for styling. I've used @mixin, which lets me group CSS declarations to reuse throughout the site, and nesting to make the code clean."
 		},
 		{
@@ -24,6 +28,8 @@
 			"code": ["React", "HTML5", "CSS3", "Javascript"],
 			"toolbox": ["Atom", "React Form", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "As a previous freelancer, this calculator is really useful! Built in React, using create controlled input components which both use, and update its state when writing a number in one of the input fields."
 		},
 		{
@@ -33,42 +39,52 @@
 			"code": ["React", "HTML5", "CSS3", "Javascript"],
 			"toolbox": ["Atom", "Slack", "Trello", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "This Clock App is built in React and is also a very useful one, using a couple of React methods. I've used Local State to Class to make it show current time, and Lifecycle Methods to make the clock pause and start."
 		},
 		{
 			"id": "5",
 			"name": "Weather Chrome Extension built in Javascript using Open Weather API",
-			"image": "./images/case.png",
+			"image": "./images/weather.jpg",
 			"code": ["HTML5", "CSS3", "Javascript"],
 			"toolbox": ["Atom", "Postman", "Open Weather API", "GitHub"],
 			"more": [""],
-			"description": "This Weather Chrome Extension is using an Open Weather API to show todays weather and temperature in three cities of Sweden. The background is changing depending on temperature using Javascript functions like conditional statements and getElementbyID."
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
+			"description": "This Weather Chrome Extension is using an Open Weather API to show todays weather and temperature in three cities of Sweden. The background is changing depending on temperature using Javascript functions like conditional statements and getElementbyID. Added as a Chrome Extension in browser."
 		},
 		{
 			"id": "6",
 			"name": "Career Site built i React using multible API. Client: Comprend.",
-			"image": "./images/case.png",
+			"image": "./images/comprend.jpg",
 			"code": ["React", "React Router", "HTML5", "CSS3", "Javascript", "API:s"],
 			"toolbox": ["Atom", "Postman", "API", "Slack", "Trello", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "Team Project. The task was to build a new career site for Comprend, using their internal career API. The site was built to be an integrated part of their current web page and follows provided wireframes and guidelines. Our Career Site includes a Landing Page with static information and an Instagram feed, a Job listing Page which lists the jobs and department and has a filtering function, and a Job Details Page which prints the details about the job from the API. We used React Router to navigate between the pages."
 		},
 		{
 			"id": "7",
 			"name": "News Site built in Javascript using Google News API. Client: Bonnier News.",
-			"image": "./images/case.png",
+			"image": "./images/lifestyle.jpg",
 			"code": ["React", "HTML5", "CSS3", "Javascript"],
 			"toolbox": ["Atom", "Postman", "Google News API", "Slack", "Trello", "GitHub"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "Team Project. The task was to built a online News Site for Lifestyle, one of the Bonnier News brands. The main focus was on fetching, filtering and handling the Google News API, and the page includes a grid that lists all articles, load more function, read more function, a responsive grid and has a fallback solution for when content is missing from the API."
 		},
 		{
 			"id": "8",
 			"name": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
-			"image": "./images/case.png",
+			"image": "./images/volumental.jpg",
 			"code": ["HTML5", "CSS3", "Javascript"],
 			"toolbox": ["Atom", "Flexbox", "GitHub", "Slack", "Trello"],
 			"more": [""],
+			"live": "",
+			"github": "https://github.com/LindaOlander?tab=repositories",
 			"description": "Team Project. The task was to built a stand alone page for the Volumental website dedicated to Balance, one of their customers. The page includes responsive header, hero background image, grid and a footer with Javascript drop down function."
 		}
 	]

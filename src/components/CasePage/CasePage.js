@@ -19,7 +19,7 @@ class CasePage extends React.Component {
         <div className="casePageText">
           <h1>{project.name}</h1>
           <p>{project.description}</p>
-          <button>See it live</button>
+          <a href={project.live} target="_blank"><button>See it live</button></a>
         </div>
         <div className="casePageTech">
           <div className="techContent">
@@ -36,16 +36,9 @@ class CasePage extends React.Component {
                 <li>{item}</li>)}
             </ul>
           </div>
-          <div className="techContent">
-            <h4>More</h4>
-            <ul>
-              {project.more.map(item =>
-                <li>{item}</li>)}
-            </ul>
-          </div>
         </div>
         <div className="buttonBox">
-          <button>View the code</button>
+          <a href={project.github} target="_blank"><button>View the code</button></a>
         </div>
       </div>
 

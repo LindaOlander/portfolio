@@ -1,4 +1,5 @@
 import React from "react"
+import casesJson from "../../cases.json"
 
 class CodeButton extends React.Component {
 

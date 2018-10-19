@@ -5,6 +5,7 @@ import AboutBox from "./AboutBox/AboutBox"
 import Footer from "./Footer/Footer"
 import SkillBox from "./SkillBox/SkillBox"
 import StudiesBox from "./StudiesBox/StudiesBox"
+import WorkBox from "./WorkBox/WorkBox"
 import LinkedInButton from "./Buttons/LinkedInButton"
 import ProjectsBox from "./ProjectsBox/ProjectsBox"
 import CaseBox from "./CaseBox/CaseBox"
@@ -30,6 +31,7 @@ class StartPage extends React.Component {
 
           <SkillBox />
           <StudiesBox />
+          <WorkBox />
           <LinkedInButton />
         </div>
         <Footer />

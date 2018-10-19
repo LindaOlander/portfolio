@@ -94,13 +94,6 @@ ul {
   margin: 50px 200px;
 }
 
-/* .navigation {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-} */
-
 /*----------STARTPAGE----------*/
 
 .aboutBox {
@@ -163,6 +156,12 @@ ul {
 .studies {
   width: calc(33% - 30px);
   margin-right: 0 30px;
+}
+
+.studies h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 /*----------CASEPAGE----------*/
@@ -272,4 +271,49 @@ ul {
   font-size: 12px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+
+  .PageContainer {
+    margin: 50px 100px;
+  }
+
+  .CaseBox {
+    flex-direction: column;
+  }
+
+  .caseBox {
+    width: 100%;
+  }
+
+  .skills {
+    width: 50%;
+  }
+
+  .studies {
+    width: calc(100% - 20px);
+    margin-right: 20px;
+  }
+
+  .aboutBox {
+    flex-direction: column-reverse;
+    /* flex-wrap: wrap-reverse; */
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .aboutBoxImage {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutBoxImage img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
