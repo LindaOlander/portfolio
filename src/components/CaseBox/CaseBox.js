@@ -8,8 +8,8 @@ class CaseBox extends React.Component {
 
       <div className="caseBox">
         <Link to={`/case/${this.props.id}`}>
-          <div className="caseTitle"><h5>{this.props.title}</h5></div>
           <img className="caseImageBox" src={this.props.image} alt="Case" />
+          <div className="caseTitle"><h5>{this.props.title}</h5></div>
         </Link>
       </div>
 
