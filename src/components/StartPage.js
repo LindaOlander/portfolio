@@ -29,6 +29,7 @@ class StartPage extends React.Component {
                 image={product.image}
                 id={product.id} />)}
           </div>
+          
           <DesignsBox />
           <SkillBox />
           <StudiesBox />
