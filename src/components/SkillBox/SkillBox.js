@@ -18,8 +18,8 @@ class SkillBox extends React.Component {
               <li>SASS</li>
               <li>GitHub</li>
               <li>Node.js</li>
-              <li>Wordpress</li>
               <li>PHP</li>
+              <li>Wordpress</li>
             </ul>
           </div>
 
