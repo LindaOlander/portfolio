@@ -8,6 +8,7 @@ import StudiesBox from "./StudiesBox/StudiesBox"
 import WorkBox from "./WorkBox/WorkBox"
 import LinkedInButton from "./Buttons/LinkedInButton"
 import ProjectsBox from "./ProjectsBox/ProjectsBox"
+import DesignsBox from "./DesignsBox/DesignsBox"
 import CaseBox from "./CaseBox/CaseBox"
 import Case from "./Case"
 import casesJson from "../cases.json"
@@ -28,7 +29,7 @@ class StartPage extends React.Component {
                 image={product.image}
                 id={product.id} />)}
           </div>
-
+          <DesignsBox />
           <SkillBox />
           <StudiesBox />
           <WorkBox />

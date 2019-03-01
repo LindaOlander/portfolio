@@ -17,7 +17,7 @@ class SkillBox extends React.Component {
               <li>React</li>
               <li>SASS</li>
               <li>GitHub</li>
-              <li><i>Upcoming:</i> CSS-grid</li>
+              <li><i>Upcoming:</i> Node.js, CSS-grid</li>
             </ul>
           </div>
 

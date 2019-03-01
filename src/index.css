@@ -3,7 +3,7 @@
   src: url(/fonts/BIGJOHN.otf);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Nunito:200i,300,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200i,300,700|Roboto:900');
 
 body {
   margin: 0;
@@ -276,7 +276,7 @@ ul {
 @media screen and (max-width: 900px) {
 
   .PageContainer {
-    margin: 50px 100px;
+    margin: 50px 50px;
   }
 
   .CaseBox {
@@ -297,16 +297,24 @@ ul {
   }
 
   .aboutBox {
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     /* flex-wrap: wrap-reverse; */
+    flex-direction: column;
     width: 100%;
     margin-bottom: 0;
   }
 
+  .aboutBoxText {
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   .aboutBoxImage {
     width: 100%;
-    height: 400px;
     padding: 0;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
   }
@@ -314,6 +322,19 @@ ul {
   .aboutBoxImage img {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .caseBox {
+    padding: 0;
+    margin: 0;
+  }
+
+  .caseTitle {
+    margin-bottom: 20px;
+  }
+
+  h1, h4, button {
+    font-family: 'Roboto', sans-serif;
   }
 
 }
